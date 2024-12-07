@@ -1,0 +1,25 @@
+
+
+.row_One {
+    @apply flex justify-between
+}
+.row_One h2{
+    @apply text-[48px] font-Inter font-semibold text-[black]
+}
+.row_One button{
+    @apply w-[200px] h-[60px] text-[16px] font-Inter font-semibold text-[black] bg-[#E7FAFE] rounded-[10px] 
+    transition-all duration-500 hover:bg-[#93e6f6]
+}
+.row_Two{
+    @apply flex justify-center gap-[50px] text-3xl font-semibold text-[rgba(0,0,0,0.6)] 
+}
+.row_Two button{
+    @apply hover:text-[black]
+}
+
+
+
+
+
+
+

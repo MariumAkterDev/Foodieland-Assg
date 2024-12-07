@@ -1,0 +1,51 @@
+.main {
+	@apply bg-[#392c2c] w-full h-[100vh];
+}
+.shorna_con {
+	@apply h-[100vh] flex justify-center items-center;
+}
+.cardLog {
+	@apply max-w-md bg-brandcolor relative flex flex-col p-4 rounded-md text-[black];
+}
+.cardTxtOne {
+	@apply text-2xl font-bold mb-2 text-[#1e0e4b] text-center;
+}
+.cardTxtTwo {
+	@apply text-sm font-normal mb-4 text-center text-[#1e0e4b];
+}
+.log_Form {
+	@apply flex flex-col gap-3;
+}
+.shorna-janina {
+	@apply block relative;
+}
+.shorna-janinaOne {
+	@apply block text-[#303030] cursor-text text-sm leading-[140%] font-normal mb-2;
+}
+.emailInp {
+	@apply pr-10 rounded border border-[#454545] text-sm w-full font-normal leading-[18px] text-[black] tracking-[0px] 
+    appearance-none block h-11 m-0 p-[11px] focus:ring-2 ring-offset-2  ring-[gray] outline-0;
+}
+.passInp{
+    @apply block text-[#2c2c2c] cursor-text text-sm leading-[140%] font-normal mb-2
+}
+.passTxt{
+    @apply rounded border border-[#454545] text-sm w-full font-normal leading-[18px] text-[black] tracking-[0px] 
+    appearance-none block h-11 m-0 p-[11px] focus:ring-2 ring-offset-2 ring-[#3f3f3f] outline-0 pr-10
+}
+.forgot{
+    @apply text-sm text-[#7747ff]
+}
+.subBtn{
+    @apply bg-[#7747ff] w-max m-auto px-6 py-2 rounded text-[white] text-lg font-normal
+}
+.accTxt{
+    @apply  text-sm text-center mt-[1.6rem]
+}
+.regTxt{
+    @apply text-sm text-[#7747ff]
+}
+.openEye ,
+.closeEye{
+    @apply absolute right-[12px] top-[40px]
+}

@@ -1,0 +1,36 @@
+.row_one{
+    @apply flex justify-between items-center
+}
+.row_one h2{
+    @apply text-[48px] font-Inter font-semibold text-[black]
+}
+.row_one button{
+    @apply w-[200px] h-[60px] text-[16px] font-Inter font-semibold text-[black] bg-[#E7FAFE] rounded-[10px] 
+    transition-all duration-500 hover:bg-[#93e6f6]
+}
+.row_two{
+    @apply py-[50px] flex justify-center gap-[50px] text-3xl font-semibold text-[rgba(0,0,0,0.6)] 
+    
+}
+.bbb{
+    @apply opacity-[0.8]
+}
+.menu:hover .bbb{
+    @apply opacity-[1]
+}
+.menu:hover a{
+    @apply text-[black]
+}
+.siglecard{
+    @apply w-[400px] h-[450px] rounded-lg bg-[white] shadow-[0_3px_10px_rgb(0,0,0,0.2)] 
+    flex flex-col items-center justify-around gap-6 pt-[80px] pb-[50px] relative overflow-hidden
+}
+.siglecard .img{
+    @apply w-[200px] h-[200px] overflow-hidden
+}
+.details h2{
+    @apply text-[black] text-[20px] font-Inter font-medium mb-3
+}
+.off{
+    @apply absolute z-10 px-[15px] top-[10px] right-0 py-[6px] bg-[yellow] font-Inter font-medium text-[18px]
+}

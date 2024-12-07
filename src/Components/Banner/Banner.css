@@ -1,0 +1,52 @@
+.shorna_banner_row{
+    @apply  pt-[40px] pb-[160px]
+}
+.banner_row{
+    @apply flex justify-between relative
+}
+.banner_text{
+    @apply p-[50px] bg-brandcolor w-[745px] rounded-tl-[52px] rounded-bl-[52px]
+}
+.hot{
+    @apply w-[156px] h-[45px] bg-[white] rounded-[70px] flex justify-center items-center gap-[13px]
+}
+.hot img{
+    @apply w-[24px] h-[24px]
+}
+.hot p{
+    @apply text-[14px] font-Inter font-semibold text-[black]
+}
+.banner_text h1{
+    @apply mt-[32px] mb-[24px] w-[520px] text-[64px] text-[black] font-Inter font-semibold
+}
+.banner_text p{
+    @apply w-[520px] text-[16px] font-Inter font-normal text-[rgba(0,0,0,0.6)]
+}
+.min_chick{
+    @apply w-[300px] mt-[30px] mb-[99px] flex justify-start items-center gap-[16px]
+}
+.min_chick .min{
+    @apply w-[150px] h-[40px] flex justify-center items-center gap-[13px] bg-[rgba(0,0,0,0.05)] 
+    rounded-[70px] pl-[10px]
+}
+.jhon{
+    @apply w-[163px] flex items-center gap-[16px]
+}
+.jhon_text h2{
+    @apply text-[16px] text-[black] font-bold font-Inter
+}
+.jhon_text p{
+    @apply text-[14px] text-[rgba(0,0,0,0.6)] font-medium font-Inter
+}
+.banner_btn button{
+    @apply w-[200px] h-[60px] bg-[black] text-[white] flex items-center justify-center gap-[15px] rounded-[15px]
+}
+.banner_btm{
+    @apply flex items-center justify-start gap-[157px]
+}
+.hand_img{
+    @apply absolute top-[75px] left-[679px]
+}
+.banner_img img{
+    @apply w-[773px] h-[670px]
+}

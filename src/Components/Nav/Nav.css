@@ -1,0 +1,36 @@
+.motherLay{
+    @apply border-b border-b-[#D9D9D9]
+}
+.menuRow{
+    @apply  flex justify-between items-center py-[40px] 
+}
+.menus ul{
+    @apply flex justify-center gap-[60px]
+}
+.menus ul a{
+    @apply text-[16px] font-Inter font-medium text-[#000000]
+}
+.menus ul li{
+    @apply   relative w-[74px] text-center	
+}
+.menus ul a::before{
+    @apply content-[""] w-0 h-[1px] bg-[black] absolute top-[110%] left-0 
+}
+.menus ul li a:hover:before{
+    @apply w-full
+}
+.socials{
+    @apply flex gap-[40px] text-[30px]
+}
+.socials a{
+    @apply transition-all duration-300 hover:bg-[#b4b3b3] p-1 rounded-lg 
+}
+.user_profile{
+    @apply flex justify-center items-center gap-3
+}
+.image{
+    @apply  w-[50px] h-[50px] bg-[#c1c1c1] rounded-full border-[3px] border-[red] overflow-hidden
+}
+.signOut{
+    @apply absolute bg-[#70e0fc] p-[18px] text-[20px] font-medium left-[-26px] top-[56px] rounded-lg
+}
